@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FCA0851A715628006787D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCA0841A715628006787D8 /* main.m */; };
+		84FCA0881A715628006787D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCA0871A715628006787D8 /* AppDelegate.m */; };
+		84FCA08B1A715628006787D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCA08A1A715628006787D8 /* ViewController.m */; };
+		84FCA08E1A715628006787D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCA08C1A715628006787D8 /* Main.storyboard */; };
+		84FCA0901A715628006787D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FCA08F1A715628006787D8 /* Images.xcassets */; };
+		84FCA0931A715628006787D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FCA0911A715628006787D8 /* LaunchScreen.xib */; };
+		84FCA09F1A715628006787D8 /* Pirate_AdventuresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCA09E1A715628006787D8 /* Pirate_AdventuresTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FCA0991A715628006787D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FCA0771A715628006787D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FCA07E1A715628006787D8;
+			remoteInfo = "Pirate Adventures";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84FCA07F1A715628006787D8 /* Pirate Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FCA0831A715628006787D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FCA0841A715628006787D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84FCA0861A715628006787D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84FCA0871A715628006787D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84FCA0891A715628006787D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84FCA08A1A715628006787D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84FCA08D1A715628006787D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FCA08F1A715628006787D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84FCA0921A715628006787D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84FCA0981A715628006787D8 /* Pirate AdventuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate AdventuresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FCA09D1A715628006787D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FCA09E1A715628006787D8 /* Pirate_AdventuresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AdventuresTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FCA07C1A715628006787D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FCA0951A715628006787D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FCA0761A715628006787D8 = {
+			isa = PBXGroup;
+			children = (
+				84FCA0811A715628006787D8 /* Pirate Adventures */,
+				84FCA09B1A715628006787D8 /* Pirate AdventuresTests */,
+				84FCA0801A715628006787D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FCA0801A715628006787D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FCA07F1A715628006787D8 /* Pirate Adventures.app */,
+				84FCA0981A715628006787D8 /* Pirate AdventuresTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FCA0811A715628006787D8 /* Pirate Adventures */ = {
+			isa = PBXGroup;
+			children = (
+				84FCA0861A715628006787D8 /* AppDelegate.h */,
+				84FCA0871A715628006787D8 /* AppDelegate.m */,
+				84FCA0891A715628006787D8 /* ViewController.h */,
+				84FCA08A1A715628006787D8 /* ViewController.m */,
+				84FCA08C1A715628006787D8 /* Main.storyboard */,
+				84FCA08F1A715628006787D8 /* Images.xcassets */,
+				84FCA0911A715628006787D8 /* LaunchScreen.xib */,
+				84FCA0821A715628006787D8 /* Supporting Files */,
+			);
+			path = "Pirate Adventures";
+			sourceTree = "<group>";
+		};
+		84FCA0821A715628006787D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FCA0831A715628006787D8 /* Info.plist */,
+				84FCA0841A715628006787D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FCA09B1A715628006787D8 /* Pirate AdventuresTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FCA09E1A715628006787D8 /* Pirate_AdventuresTests.m */,
+				84FCA09C1A715628006787D8 /* Supporting Files */,
+			);
+			path = "Pirate AdventuresTests";
+			sourceTree = "<group>";
+		};
+		84FCA09C1A715628006787D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FCA09D1A715628006787D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FCA07E1A715628006787D8 /* Pirate Adventures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FCA0A21A715628006787D8 /* Build configuration list for PBXNativeTarget "Pirate Adventures" */;
+			buildPhases = (
+				84FCA07B1A715628006787D8 /* Sources */,
+				84FCA07C1A715628006787D8 /* Frameworks */,
+				84FCA07D1A715628006787D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pirate Adventures";
+			productName = "Pirate Adventures";
+			productReference = 84FCA07F1A715628006787D8 /* Pirate Adventures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FCA0971A715628006787D8 /* Pirate AdventuresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FCA0A51A715628006787D8 /* Build configuration list for PBXNativeTarget "Pirate AdventuresTests" */;
+			buildPhases = (
+				84FCA0941A715628006787D8 /* Sources */,
+				84FCA0951A715628006787D8 /* Frameworks */,
+				84FCA0961A715628006787D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FCA09A1A715628006787D8 /* PBXTargetDependency */,
+			);
+			name = "Pirate AdventuresTests";
+			productName = "Pirate AdventuresTests";
+			productReference = 84FCA0981A715628006787D8 /* Pirate AdventuresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FCA0771A715628006787D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Denis;
+				TargetAttributes = {
+					84FCA07E1A715628006787D8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					84FCA0971A715628006787D8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 84FCA07E1A715628006787D8;
+					};
+				};
+			};
+			buildConfigurationList = 84FCA07A1A715628006787D8 /* Build configuration list for PBXProject "Pirate Adventures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FCA0761A715628006787D8;
+			productRefGroup = 84FCA0801A715628006787D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FCA07E1A715628006787D8 /* Pirate Adventures */,
+				84FCA0971A715628006787D8 /* Pirate AdventuresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FCA07D1A715628006787D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FCA08E1A715628006787D8 /* Main.storyboard in Resources */,
+				84FCA0931A715628006787D8 /* LaunchScreen.xib in Resources */,
+				84FCA0901A715628006787D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FCA0961A715628006787D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FCA07B1A715628006787D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FCA08B1A715628006787D8 /* ViewController.m in Sources */,
+				84FCA0881A715628006787D8 /* AppDelegate.m in Sources */,
+				84FCA0851A715628006787D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FCA0941A715628006787D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FCA09F1A715628006787D8 /* Pirate_AdventuresTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FCA09A1A715628006787D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FCA07E1A715628006787D8 /* Pirate Adventures */;
+			targetProxy = 84FCA0991A715628006787D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FCA08C1A715628006787D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FCA08D1A715628006787D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FCA0911A715628006787D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FCA0921A715628006787D8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FCA0A01A715628006787D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84FCA0A11A715628006787D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FCA0A31A715628006787D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pirate Adventures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84FCA0A41A715628006787D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pirate Adventures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84FCA0A61A715628006787D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirate AdventuresTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirate Adventures.app/Pirate Adventures";
+			};
+			name = Debug;
+		};
+		84FCA0A71A715628006787D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirate AdventuresTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirate Adventures.app/Pirate Adventures";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FCA07A1A715628006787D8 /* Build configuration list for PBXProject "Pirate Adventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FCA0A01A715628006787D8 /* Debug */,
+				84FCA0A11A715628006787D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FCA0A21A715628006787D8 /* Build configuration list for PBXNativeTarget "Pirate Adventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FCA0A31A715628006787D8 /* Debug */,
+				84FCA0A41A715628006787D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84FCA0A51A715628006787D8 /* Build configuration list for PBXNativeTarget "Pirate AdventuresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FCA0A61A715628006787D8 /* Debug */,
+				84FCA0A71A715628006787D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FCA0771A715628006787D8 /* Project object */;
+}
